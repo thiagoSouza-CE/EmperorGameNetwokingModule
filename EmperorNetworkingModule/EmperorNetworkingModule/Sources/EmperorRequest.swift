@@ -33,16 +33,16 @@ struct APIRequest {
         request.httpMethod = method.rawValue
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
-        // Se tiver body, transforma em JSON
-        if let body = body {
-            do {
-                request.httpBody = try JSONEncoder().encode(body)
-            } catch {
-                completion(.failure(.requestFailed))
-                return
-            }
-        }
-        
+//        // Se tiver body, transforma em JSON
+//        if let body = body {
+//            do {
+//                request.httpBody = try JSONEncoder().encode(body)
+//            } catch {
+//                completion(.failure(.requestFailed))
+//                return
+//            }
+//        }
+//        
         // Executa a requisição
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard

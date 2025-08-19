@@ -14,6 +14,7 @@
 		6C43B31A2E53F89B0033D9A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C43B3192E53F89B0033D9A8 /* Assets.xcassets */; };
 		6C43B31D2E53F89B0033D9A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C43B31B2E53F89B0033D9A8 /* LaunchScreen.storyboard */; };
 		6C43B3252E53F8BD0033D9A8 /* EmperorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C43B3242E53F8BD0033D9A8 /* EmperorRequest.swift */; };
+		6C43B3442E54ABC60033D9A8 /* Networking.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6C43B3432E54ABC60033D9A8 /* Networking.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6C43B31C2E53F89B0033D9A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C43B31E2E53F89B0033D9A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C43B3242E53F8BD0033D9A8 /* EmperorRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmperorRequest.swift; sourceTree = "<group>"; };
+		6C43B3432E54ABC60033D9A8 /* Networking.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Networking.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		6C43B30F2E53F8960033D9A8 /* EmperorNetworkingModule */ = {
 			isa = PBXGroup;
 			children = (
+				6C43B3452E54AC160033D9A8 /* Sources */,
 				6C43B3102E53F8960033D9A8 /* AppDelegate.swift */,
 				6C43B3122E53F8960033D9A8 /* SceneDelegate.swift */,
 				6C43B3142E53F8960033D9A8 /* ViewController.swift */,
@@ -65,9 +68,17 @@
 				6C43B3192E53F89B0033D9A8 /* Assets.xcassets */,
 				6C43B31B2E53F89B0033D9A8 /* LaunchScreen.storyboard */,
 				6C43B31E2E53F89B0033D9A8 /* Info.plist */,
-				6C43B3242E53F8BD0033D9A8 /* EmperorRequest.swift */,
+				6C43B3432E54ABC60033D9A8 /* Networking.podspec */,
 			);
 			path = EmperorNetworkingModule;
+			sourceTree = "<group>";
+		};
+		6C43B3452E54AC160033D9A8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6C43B3242E53F8BD0033D9A8 /* EmperorRequest.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +141,7 @@
 			files = (
 				6C43B31D2E53F89B0033D9A8 /* LaunchScreen.storyboard in Resources */,
 				6C43B31A2E53F89B0033D9A8 /* Assets.xcassets in Resources */,
+				6C43B3442E54ABC60033D9A8 /* Networking.podspec in Resources */,
 				6C43B3182E53F8960033D9A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
